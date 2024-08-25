@@ -1,0 +1,8 @@
+
+State Machine - |controller|ps
+Name ps.Upcount ps.Detect ps.Init ps.Idle ps.Downcount 
+ps.Idle 0 0 0 0 0 
+ps.Init 0 0 1 1 0 
+ps.Detect 0 1 0 1 0 
+ps.Upcount 1 0 0 1 0 
+ps.Downcount 0 0 0 1 1 

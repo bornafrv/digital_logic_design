@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "co",
+					"strict" : false
+				},
+				{
+					"name" : "serialout",
+					"strict" : false
+				},
+				{
+					"name" : "qout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "qout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "qin[7]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "load",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "qin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "qin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "qin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "qin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "qin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "qin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "qin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "serialin",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

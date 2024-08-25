@@ -1,0 +1,89 @@
+C:/Users/Asus/Desktop/CA_5/d0.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/d0.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_Detector
+
+Top level modules:
+	d_Detector
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/d1.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/d1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/d2.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/d2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SerialTransmitterTB
+
+Top level modules:
+	SerialTransmitterTB
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/b2_TB.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/b2_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counterreg_testbench
+
+Top level modules:
+	counterreg_testbench
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/simulation/modelsim/serial_transmitter_circuit.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/simulation/modelsim/serial_transmitter_circuit.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module serial_transmitter_circuit
+-- Compiling module hard_block
+
+Top level modules:
+	serial_transmitter_circuit
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/simulation/modelsim/counterReg.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/simulation/modelsim/counterReg.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counterReg
+-- Compiling module hard_block
+
+Top level modules:
+	counterReg
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/c2_TB.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/c2_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmitter_testbench
+
+Top level modules:
+	transmitter_testbench
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/a1.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/a1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Detector
+
+Top level modules:
+	Detector
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/simulation/modelsim/Detector.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/simulation/modelsim/Detector.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Detector
+-- Compiling module hard_block
+
+Top level modules:
+	Detector
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/a1_TB.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/a1_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Detector_Tb
+
+Top level modules:
+	Detector_Tb
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/simulation/modelsim/transmitter.vo {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/simulation/modelsim/transmitter.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmitter
+-- Compiling module hard_block
+
+Top level modules:
+	transmitter
+
+} {} {}} C:/Users/Asus/Desktop/CA_5/a3_TB.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/CA_5/a3_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Detector_prepossynt_Tb
+
+Top level modules:
+	Detector_prepossynt_Tb
+
+} {} {}}

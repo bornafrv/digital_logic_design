@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "serout",
+					"strict" : false
+				},
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "out_valid",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[7]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[6]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "downcounter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "register[7]",
+					"strict" : false
+				},
+				{
+					"name" : "register[6]",
+					"strict" : false
+				},
+				{
+					"name" : "register[5]",
+					"strict" : false
+				},
+				{
+					"name" : "register[4]",
+					"strict" : false
+				},
+				{
+					"name" : "register[3]",
+					"strict" : false
+				},
+				{
+					"name" : "register[2]",
+					"strict" : false
+				},
+				{
+					"name" : "register[1]",
+					"strict" : false
+				},
+				{
+					"name" : "register[0]",
+					"strict" : false
+				},
+				{
+					"name" : "upcounter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "upcounter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "upcounter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "serialin",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
