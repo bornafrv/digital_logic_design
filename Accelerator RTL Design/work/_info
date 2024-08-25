@@ -1,0 +1,221 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/
+vcircuit
+Z0 !s110 1704860522
+!i10b 1
+!s100 n4iLQ_Eo8Lc?Q497kP4<z2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHBNfBI>[@eMVjK6PUlll73
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Asus/Desktop/CA6
+Z4 w1704860299
+Z5 8C:/Users/Asus/Desktop/CA6/simulation/modelsim/circuit.vo
+Z6 FC:/Users/Asus/Desktop/CA6/simulation/modelsim/circuit.vo
+!i122 49
+L0 32 10576
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704860522.000000
+!s107 C:/Users/Asus/Desktop/CA6/simulation/modelsim/circuit.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/simulation/modelsim/circuit.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcontroller
+Z12 !s110 1704860521
+!i10b 1
+!s100 aQd]`LYGG;BDO[0L;?<zC1
+R1
+I1a1Pe@:QUf1jISWHRfT5>0
+R2
+R3
+w1704856786
+8C:/Users/Asus/Desktop/CA6/controller.v
+FC:/Users/Asus/Desktop/CA6/controller.v
+!i122 45
+L0 1 26
+R7
+r1
+!s85 0
+31
+Z13 !s108 1704860521.000000
+!s107 C:/Users/Asus/Desktop/CA6/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/controller.v|
+!i113 1
+R10
+R11
+vcontrollerQ
+!s110 1704858303
+!i10b 1
+!s100 E[?5USYHk;N5YWC6gYNFO0
+R1
+IM@hb@Q]3hK=U=bl3hff7E2
+R2
+R3
+w1704858011
+8C:/Users/Asus/Desktop/CA6/simulation/modelsim/controllerQ.vo
+FC:/Users/Asus/Desktop/CA6/simulation/modelsim/controllerQ.vo
+!i122 43
+L0 32 734
+R7
+r1
+!s85 0
+31
+!s108 1704858303.000000
+!s107 C:/Users/Asus/Desktop/CA6/simulation/modelsim/controllerQ.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/simulation/modelsim/controllerQ.vo|
+!i113 1
+R10
+R11
+ncontroller@q
+vcosx_TB
+R0
+!i10b 1
+!s100 7hc4GH@KdigQ4C6139d=[0
+R1
+IoDlRiJ9mUdh3Y<n77Y@Z?1
+R2
+R3
+w1704860516
+8C:/Users/Asus/Desktop/CA6/testbench.v
+FC:/Users/Asus/Desktop/CA6/testbench.v
+!i122 48
+L0 3 22
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Asus/Desktop/CA6/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/testbench.v|
+!i113 1
+R10
+R11
+ncosx_@t@b
+vdatapathfinal
+Z14 !s110 1704858302
+!i10b 1
+!s100 AJ<SU9EYo>LHa[zbcQB?81
+R1
+IU3A@9N6WK]QVk4Q[<i_R<1
+R2
+R3
+w1704857322
+8C:/Users/Asus/Desktop/CA6/simulation/modelsim/datapathfinal.vo
+FC:/Users/Asus/Desktop/CA6/simulation/modelsim/datapathfinal.vo
+!i122 41
+L0 32 10106
+R7
+r1
+!s85 0
+31
+Z15 !s108 1704858302.000000
+!s107 C:/Users/Asus/Desktop/CA6/simulation/modelsim/datapathfinal.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/simulation/modelsim/datapathfinal.vo|
+!i113 1
+R10
+R11
+vhard_block
+R0
+!i10b 1
+!s100 cd1Icae7=YgL9mTE1lZ5C3
+R1
+IH7EGV9J07DkZDRVdYaFUW2
+R2
+R3
+R4
+R5
+R6
+!i122 49
+L0 10609 34
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 C:/Users/Asus/Desktop/CA6/simulation/modelsim/circuit.vo|
+R9
+!i113 1
+R10
+R11
+vregister
+R12
+!i10b 1
+!s100 gD86An]hT0z>W6X?VCkAn1
+R1
+I4^5ES???m0kTGae@4g;Q>0
+R2
+R3
+w1704856342
+8C:/Users/Asus/Desktop/CA6/register.v
+FC:/Users/Asus/Desktop/CA6/register.v
+!i122 46
+L0 1 11
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/CA6/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/register.v|
+!i113 1
+R10
+R11
+vregisterQ
+R14
+!i10b 1
+!s100 LZjL=a:E]L<oTj2eEUBCJ1
+R1
+IWWYi@RjKd3_F@fjfOeNHT0
+R2
+R3
+w1704857089
+8C:/Users/Asus/Desktop/CA6/simulation/modelsim/registerQ.vo
+FC:/Users/Asus/Desktop/CA6/simulation/modelsim/registerQ.vo
+!i122 42
+L0 32 1206
+R7
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Asus/Desktop/CA6/simulation/modelsim/registerQ.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/simulation/modelsim/registerQ.vo|
+!i113 1
+R10
+R11
+nregister@q
+vrom
+R0
+!i10b 1
+!s100 1VM9kkJWXH7]1<BN4i[HZ1
+R1
+ID?bkY7`E`=<GC`]_7COTP3
+R2
+R3
+w1704833263
+8C:/Users/Asus/Desktop/CA6/rom.v
+FC:/Users/Asus/Desktop/CA6/rom.v
+!i122 47
+L0 1 20
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Asus/Desktop/CA6/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Asus/Desktop/CA6/rom.v|
+!i113 1
+R10
+R11

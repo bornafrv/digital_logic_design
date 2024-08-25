@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "ldx",
+					"strict" : false
+				},
+				{
+					"name" : "selxrom",
+					"strict" : false
+				},
+				{
+					"name" : "encount",
+					"strict" : false
+				},
+				{
+					"name" : "initcount",
+					"strict" : false
+				},
+				{
+					"name" : "initt",
+					"strict" : false
+				},
+				{
+					"name" : "ldt",
+					"strict" : false
+				},
+				{
+					"name" : "initr",
+					"strict" : false
+				},
+				{
+					"name" : "ldr",
+					"strict" : false
+				},
+				{
+					"name" : "addci",
+					"strict" : false
+				},
+				{
+					"name" : "start",
+					"strict" : false
+				},
+				{
+					"name" : "enablecircuit",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

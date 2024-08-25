@@ -1,0 +1,20 @@
+|controllerQ
+start => Selector1.IN2
+start => Selector0.IN1
+start => ns.load.DATAB
+clock => ps~1.DATAIN
+reset => ps~3.DATAIN
+enablecircuit => ns.subadd.DATAB
+enablecircuit => Selector0.IN2
+ready << ready.DB_MAX_OUTPUT_PORT_TYPE
+ldx << ldx.DB_MAX_OUTPUT_PORT_TYPE
+selxrom << selxrom.DB_MAX_OUTPUT_PORT_TYPE
+encount << selxrom.DB_MAX_OUTPUT_PORT_TYPE
+initcount << initcount.DB_MAX_OUTPUT_PORT_TYPE
+initt << initcount.DB_MAX_OUTPUT_PORT_TYPE
+ldt << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+initr << initcount.DB_MAX_OUTPUT_PORT_TYPE
+ldr << ldr.DB_MAX_OUTPUT_PORT_TYPE
+addci << addci$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
