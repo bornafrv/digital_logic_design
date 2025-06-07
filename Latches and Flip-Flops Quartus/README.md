@@ -1,65 +1,61 @@
-# 🔄 SR Latches and D Flip-Flops – RTL Design and Simulation in Verilog
+# 🔧 Digital Logic Design Projects – Verilog Modules and Testbenches
 
 ## 📘 Project Overview
 
-This project focuses on the **design, simulation, and timing analysis** of **SR latches** and **D flip-flops** using **Verilog HDL**, forming a core part of the **Digital Logic Design course** at the **University of Tehran**.
+This repository contains a collection of **Verilog modules**, **testbenches**, and **synthesized files** developed as part of the **Digital Logic Design** course at the **University of Tehran**.
 
-The goal is to explore the behavior of basic sequential elements, investigate **timing constraints** (e.g., setup/hold times), and implement advanced versions including **Preset (PRE)** and **Clear (CLR)**.
-
----
-
-## 🔧 Components Overview
-
-### 🟢 1. SR Latch (Active-Low Inputs)
-- Implemented using **cross-coupled NAND** gates
-- Delays: `#4` ns for NMOS, `#6` ns for PMOS
-- Simulated behavior under:
-  - Valid input transitions
-  - **Illegal state**: `S = 0` and `R = 0` (should cause loss of memory or unstable output)
-
-### 🔵 2. D Flip-Flop (Built from SR-Latches)
-- Constructed using **three SR-latches**
-- **Edge-triggered behavior** simulated
-- Timing constraints:
-  - `tsetup`: Minimum time before rising edge of clock that D must be stable
-  - `thold`: Minimum time after clock edge D must remain stable
-- Simulations also include:
-  - **Setup/Hold violations**
-  - Propagation delay analysis
-
-### 🟠 3. D Flip-Flop with Preset and Clear
-- Enhanced design supporting **asynchronous PRE & CLR**
-- `PRE` forces `Q = 1`, `CLR` forces `Q = 0`
-- Tested under:
-  - Normal D/CLK operation
-  - Asynchronous activation of `PRE` and `CLR`
-  - **Both PRE & CLR active** simultaneously (illegal state)
+The modules implement key digital components such as **bit counters**, **sequence detectors**, **shift registers**, **counters**, and **custom logic controllers**. Each component is accompanied by its corresponding testbench and, where applicable, its synthesized and blackbox versions.
 
 ---
 
-## 📈 Simulation Highlights
+## 🧠 Key Modules
 
-- **Waveform Snapshots**:
-  - SR latch with bouncing inputs
-  - Flip-flop under violation conditions
-  - PRE/CLR priority testing
-- **Behavior under edge cases** (undefined states, metastability)
-- **Delay and response justification** with transistor-level delays
+### 🔢 bitCounter.v
+Counts the number of bits (1s or 0s) in a digital input stream.  
+Includes testbench and synthesized version.
+
+### 🔄 shiftReister.v
+Implements a shift register with configurable width.  
+Includes simulation, synthesis, and blackbox files.
+
+### 🧮 downCounter.v
+Implements a synchronous down-counter with load and reset features.
+
+### 🧭 controller.v
+A control logic FSM that manages operation based on internal states and input conditions.
+
+### 🧬 sequenceDetector.v / d_detector.v
+Implements pattern matching logic that detects specific binary sequences in serial input.
 
 ---
 
-## 🎯 Deliverables
+## 🧪 Testbenches
 
-- ✅ Verilog implementations (SR Latch, DFF, DFF with PRE/CLR)
-- ✅ Testbenches for each module
-- ✅ Timing diagrams and waveform analysis
-- ✅ Explanation of setup/hold constraints
-- ✅ Written report documenting all results
+Each major module is verified with a corresponding testbench:
+- `a1_testBench.v`, `a3_testBench.v`, `b2_testBench.v`, `c2_testBench.v`, `d2_testBench.v`
+- Testbenches simulate input signals and verify expected outputs using waveform viewers or logs.
 
 ---
 
-## 🎓 Academic Info
+## 📌 Notes
+
+- **Synthesis reports** are available for select modules (`bitCounter`, `downCounter`, `shiftReister`) with `.syn.v` and `.bb.v` files.
+- All modules follow **SystemVerilog syntax**, compatible with tools such as **ModelSim**, **Vivado**, and **Quartus II**.
+- Refer to `Instruction.pdf` for a detailed breakdown of each task, including expected behavior and validation criteria.
+
+---
+
+## 🎓 Course Info
 
 **Course**: Digital Logic Design  
 **University**: University of Tehran  
 👨‍🏫 **Instructor**: Professor Zain Navabi
+
+---
+
+## 🛠 How to Use
+
+1. Open the project in your Verilog-compatible simulation environment.
+2. Compile the module and corresponding testbench (e.g., `bitCounter.v` + `bitCounter_testBench.v`).
+3. Run simulations and verify waveform or output logs.
+4. For synthesis, use `*.syn.v` and refer to resource usage reports.
